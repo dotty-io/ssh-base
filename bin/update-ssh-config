@@ -17,5 +17,3 @@ if [ -d "$HOME/.ssh/config.d" ]; then
 	cat "$f"    >> "$HOME/.ssh/config"
     done
 fi
-
-exec ssh "$@"
